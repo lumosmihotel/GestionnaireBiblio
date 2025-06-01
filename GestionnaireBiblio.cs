@@ -164,8 +164,6 @@ namespace BibliothequeSystem
     public static class SecurityManager
     {
 
-        private static readonly string _adminHash = "e4ad93ca07acb8d908a3aa41e920ea4f4ef4f26e7f86cf8291c5db289780a5ae";
-
         public static string GetHiddenPassword()
         {
             return Encoding.UTF8.GetString(_hiddenKey);
